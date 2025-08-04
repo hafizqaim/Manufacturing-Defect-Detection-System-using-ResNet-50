@@ -1,0 +1,18 @@
+# Ignore PyTorch model weights (these are often large)
+*.pth
+
+# Ignore large datasets and data folders
+/Datasets/
+
+# Ignore Python virtual environment files
+/venv/
+
+# Ignore common OS files
+.DS_Store
+
+# Ignore Python-specific files
+__pycache__/
+*.pyc
+
+# Ignore Kaggle-specific files if any were saved locally
+/kaggle/
